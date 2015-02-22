@@ -11,7 +11,6 @@ from scipy import sparse
 
 
 class TreeTransform(BaseEstimator, TransformerMixin):
-
     def __init__(self, estimator):
         self.estimator = estimator
 
